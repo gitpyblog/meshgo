@@ -8,7 +8,7 @@ Ten dokument opisuje szybką ścieżkę testową dla funkcji synchronizacji dany
 
 Zanim zaczniesz testy, upewnij się, że masz zainstalowaną najnowszą wersję aplikacji:
 
-1. **Pobieranie**: Wejdź na stronę [meshcore.pl/apk](https://meshgo.pl/apk) na swoim telefonie.
+1. **Pobieranie**: Wejdź na stronę [meshgo.pl/apk](https://meshgo.pl/apk) na swoim telefonie.
 2. **Automatyczny Start**: Pobieranie powinno rozpocząć się automatycznie. Jeśli nie, kliknij przycisk "Pobierz bezpośrednio (.apk)".
 3. **Instalacja**:
    * Otwórz pobrany plik `.apk`.
@@ -58,5 +58,6 @@ Możesz przetestować wysyłanie do chmury informacji o węzłach ("kontaktach")
 > [!IMPORTANT]
 > **Dlaczego to jest ważne?**  
 > Ten test weryfikuje pełny przepływ danych: od zapisu binarnego w chmurze, przez system Smart Hash Sync, aż po renderowanie grafiki z lokalnego cache IndexedDB (Offline-First).
+
 
 
