@@ -23,7 +23,7 @@ Zanim zaczniesz testy, upewnij się, że masz zainstalowaną najnowszą wersję 
 Wszystkie poniższe kroki należy wykonać w dolnym panelu w sekcji **Cloud DEV** (panel ten wyciąga się gestem **swipe up** od dolnej krawędzi okna aplikacji):
 
 1. **Rejestracja**: Zarejestruj się, używając dowolnego adresu e-mail.
-   ![Rejestracja w Cloud DEV](img/cloud_register.png)
+   ![Rejestracja w Cloud DEV](cloud_register.png)
 
 2. **Logowanie**: Po utworzeniu konta zaloguj się do panelu.
 
@@ -37,7 +37,7 @@ Wszystkie poniższe kroki należy wykonać w dolnym panelu w sekcji **Cloud DEV*
 6. **Finalizacja**:
    * Na dole ekranu głównego kliknij przycisk **⬇ Pobierz z chmury**.
    * System powinien pobrać dane z synchronizacji i wyświetlić Twój awatar przy węźle.
-   ![Pobieranie i Wysyłanie](img/push_pull.png)
+   ![Pobieranie i Wysyłanie](push_pull.png)
 
 ---
 
@@ -51,10 +51,11 @@ Możesz przetestować wysyłanie do chmury informacji o węzłach ("kontaktach")
    * **Bezpieczeństwo**: Przesyłane są dane o **topologii i strukturze sieci**, które i tak krążą publicznie w eterze i są widoczne dla każdego odbiornika.
    * **Prywatność**: Żadne dane wrażliwe, treści prywatnych wiadomości ani klucze prywatne **nie opuszczają** urządzenia. Synchronizacja służy wyłącznie do budowania wspólnej mapy zasięgu i topologii w chmurze MeshCore.
 3. **Weryfikacja**: Wejdź do zakładki **Mesh** w menu i sprawdź, czy są widoczne awatary urządzeń dla kontaktów takich jak np. **meshgo.pl Oliwa**.
-   ![Weryfikacja awatarów w Mesh](img/ver1.png)
+   ![Weryfikacja awatarów w Mesh](ver1.png)
 
 ---
 
 > [!IMPORTANT]
 > **Dlaczego to jest ważne?**  
 > Ten test weryfikuje pełny przepływ danych: od zapisu binarnego w chmurze, przez system Smart Hash Sync, aż po renderowanie grafiki z lokalnego cache IndexedDB (Offline-First).
+
